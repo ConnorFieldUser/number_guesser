@@ -2,23 +2,6 @@
 import random
 
 
-# NOTES FROM THE LECTURE
-
-# print(random.randint(1, 99))
-
-# joels_age = int(input("How old are you?"))
-# sarahs_age = 34
-
-# print(joels_age > sarahs_age)
-
-# if joels_age > sarahs_age:
-#    print("You are older than sarah")
-# elif joels_age == sarahs_age:
-#    print("You are the same age")
-# else:
-#    print("You are NOT older than sarah")
-
-
 def number_guesser():
     cpu_num = random.randint(1, 25)
     tries_left = 5

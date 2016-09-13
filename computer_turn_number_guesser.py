@@ -27,5 +27,4 @@ def computer_number_guesser():
     else:
         print("Between 1 and 25! Game over cheater.")
 
-# low=0, reset low, ect
 computer_number_guesser()
