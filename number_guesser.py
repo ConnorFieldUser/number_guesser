@@ -15,7 +15,7 @@ def number_guesser():
             print("Thats not it. My number is greater than that.")
         elif cpu_num < int(player_guess):
             print("Nope. My number is smaller than that.")
-        elif player_guess != type.int:
+        elif type(player_guess) != int:
             print("Numbers only")
     else:
         print("Game Over!")
