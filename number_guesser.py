@@ -5,6 +5,7 @@ import random
 def number_guesser():
     cpu_num = random.randint(1, 25)
     tries_left = 5
+    print("My number is between 1 and 25.")
     for guess in range(5):
         player_guess = input("You have {} guesses left. Try to guess my number: ".format(tries_left))
         tries_left -= 1
